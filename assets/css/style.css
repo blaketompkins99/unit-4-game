@@ -1,0 +1,72 @@
+body {
+    background-color: lightblue;
+}
+
+#collector {
+    background-color: lightyellow;
+    color: lightcoral;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    padding: auto;
+}
+
+#instructions {
+    background-color: lightcoral;
+    color: white;
+    height: 350px;
+    width: 300px;
+    text-align: center;
+}
+
+#winLoss {
+    background-color: lightyellow;
+    color: lightcoral;
+    width: 190px;
+    height: 90px;
+    margin: 15px auto 15px 0px;
+    float: left;
+}
+
+#randNum {
+    width: 100px;
+    height: 90px;
+    background-color: lightcoral;
+    color: lightyellow;
+    font-size: 40px;
+    float: left;
+    margin: 15px 10px 15px 0px;
+    text-align: center;
+}
+
+#crystals {
+    height: 75px;
+    width: 325px;
+    clear: left;
+}
+
+#blue {
+    height: 72px;
+    width: 72px;}
+
+#pink {
+    height: 72px;
+    width: 72px;
+}
+
+#yellow {
+    height: 72px;
+    width: 72px;
+}
+
+#gray {
+    height: 72px;
+    width: 72px;
+}
+
+#score {
+    width: 300px;
+    height: 90px;
+    background-color: lightyellow;
+    color: lightcoral;
+}

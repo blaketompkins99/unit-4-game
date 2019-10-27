@@ -4,13 +4,13 @@
     <head>
         <title>Crystal Collector</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="/assets/css/style.css">
-        <link rel="stylesheet" href="/assets/css/reset.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/reset.css">
     </head>
 
     <body>
         <div id="collector">
-            <h1>Crystal Collector</h1>
+            <h1>Crystal Collector!</h1>
         </div>
 
         <div id="instructions">
@@ -25,7 +25,29 @@
             <p>Each time the game starts, the game will change the value of the crystals.</p>
         </div>
 
-    </body>
+        <div id="randNum">
+            <p id="targetScore"></p>
+        </div>
+
+        <div id="winLoss">
+            <p id="wins">Wins: 0</p>
+            <p id="losses">Losses: 0</p>
+        </div>
+
+        <div id="crystals">
+            <img id="blue" src="assets/images/blueCrystal.jpg" alt="blue">
+            <img id="pink" src="assets/images/pinkCrystal.jpg" alt="pink">
+            <img id="yellow" src="assets/images/yellowCrystal.jpg" alt="yellow">
+            <img id="gray" src="assets/images/grayCrystal.jpg" alt="gray">
+        </div>
+
+        <div id="score">
+            <p>Your current score is: </p>
+            <p id="currentScore">0</p>
+        </div>
+
+        <script src="assets/javascript/game.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>    </body>
 
 
 
